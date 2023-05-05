@@ -24,7 +24,7 @@ def get_version():
 
 def get_description():
     des = "google-trans free api, fixes by HOP"
-    return description
+    return des
 
 with open("requirements.txt", encoding="utf-8") as r:
     install_requires = [i.strip() for i in r if not i.startswith('#')]
